@@ -1,0 +1,32 @@
+.entity {
+	background-repeat: no-repeat;
+	background-size: contain;
+	position: absolute;
+}
+
+.rat {
+	width: 200px;
+	height: 100px;
+	cursor: pointer;
+	z-index: 9999;
+	transition .5s ease-in-out;
+	-webkit-transition: .5s ease-in-out;
+}
+
+.poop {
+	cursor: pointer;
+	z-index: 9998;
+	width: 30px;
+	height: 30px;
+}
+
+.house {
+	z-index: 9997;
+	width: 100px;
+	height: 80px;
+	-webkit-animation: disappearing 7s;
+}
+
+@-webkit-keyframes disappearing {
+	50% {opacity: 0;}
+}
