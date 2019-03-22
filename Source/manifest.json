@@ -17,13 +17,20 @@
 			"https://*/*"
 		],
 		"css": ["styles/style.css"],
-		"js": ["scripts/content-script.js"]
+		"js": [
+			"scripts/entity.js",
+			"scripts/poop.js",
+			"scripts/house.js",
+			"scripts/rat.js",
+			"scripts/content-script.js"
+		]
 	}],
 	"browser_action": {
 		"default_title": "Ratty"
 	},
 	"web_accessible_resources": [
-		"images/RatTransparent.png",
+		"images/RatTransparentRight.png",
+		"images/RatTransparentLeft.png",
 		"images/Poop.png",
 		"images/House.png",
 		"sounds/squeak.wav"

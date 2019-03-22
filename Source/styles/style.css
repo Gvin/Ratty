@@ -9,8 +9,18 @@
 	height: 100px;
 	cursor: pointer;
 	z-index: 9999;
-	transition .5s ease-in-out;
-	-webkit-transition: .5s ease-in-out;
+}
+
+.rat.moving-15 {
+	-webkit-transition: all 1.5s linear;
+}
+
+.rat.moving-10 {
+	-webkit-transition: all 1s linear;
+}
+
+.rat.moving-05 {
+	-webkit-transition: all .5s linear;
 }
 
 .poop {
@@ -24,7 +34,7 @@
 	z-index: 9997;
 	width: 100px;
 	height: 80px;
-	-webkit-animation: disappearing 7s;
+	-webkit-animation: disappearing 7s 2s;
 }
 
 @-webkit-keyframes disappearing {
